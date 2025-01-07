@@ -1,0 +1,117 @@
+/* General Header Styles */
+.header-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #2b2b40;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  font-size: 15px;
+  color: #ffffff;
+  /* margin-bottom: 2px; Further reduced space */
+}
+
+/* Main Title */
+.main-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 38px; /* Significantly increased space */
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* Server Title */
+.server-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+
+/* Server Details */
+.server-details {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #d1d1d1;
+  margin-bottom: 20px;
+}
+
+.server-flag {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.separator {
+  margin: 0 10px;
+}
+
+/* Server Description */
+.server-description {
+  font-size: 0.900rem;
+  color: #a0a0a0;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.server-description .link {
+  color: #1e90ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.server-description .link:hover {
+  text-decoration: underline;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  gap: 15px;
+}
+
+.action-button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #4a4a4a;
+  background-color: #3c3c5c;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #ffd700;
+  color: #1e1e2f;
+  transform: scale(1.05);
+}
+
+/* Rating Box */
+.rating-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #4a4a4a;
+  background-color: #3c3c5c;
+  font-size: 1rem;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.rating-box i {
+  margin-right: 5px;
+  color: #ffd700;
+}
