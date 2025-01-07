@@ -9,7 +9,7 @@ const ServerInfo = () => {
     useEffect(() => {
         const fetchServerInfo = async () => {
             try {
-                const response = await axios.get("http://localhost:5000/api/server-info");
+                const response = await axios.get("https://battlefield-server-backend.onrender.com/api/server-info");
                 if (response.data.success) {
                     setServerData(response.data.data);
                 } else {
